@@ -1,0 +1,57 @@
+/* Basic Starter */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Duru Sans", Arial, Helvetica, sans-serif;
+
+}
+section, .container {
+    width: 100%;
+}
+.full-height {
+    height: 100%;
+}
+.centered {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.tabled {
+    display: table;
+}
+.tabled-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.white {
+    background: #ffffff;
+}
+a {
+    /* First we need to help some browsers along for this to work.
+       Just because a vendor prefix is there, doesn't mean it will
+       work in a browser made by that vendor either, it's just for
+       future-proofing purposes I guess. */
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+    outline: 0;
+    color: #666;
+    text-decoration: none;
+}
+a:hover, a:active, a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+/******************************* 
+**** Header
+********************************/
+.hero-index {
+  background-color: #ededed;
+  text-align: center;
+  
+}
